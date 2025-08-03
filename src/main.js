@@ -63,8 +63,9 @@ async function onSubmit(event) {
     } else {
       hideLoadMoreButton();
     }
-
-  } catch (error) {
+      myForm.reset();
+      
+    } catch (error) {
     iziToast.error({
       title: 'Error',
       message: 'There is some error, please try another time',

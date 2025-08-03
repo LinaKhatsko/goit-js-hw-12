@@ -183,3 +183,18 @@ button:focus {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  .load-more {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    margin-top: 8px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+  }
