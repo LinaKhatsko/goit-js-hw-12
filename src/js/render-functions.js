@@ -53,9 +53,15 @@ export function createGallery(images) {
 export function clearGallery(){
     container.innerHTML="";
 };
- export function showLoader(){
+export function showLoader(){
     document.querySelector('.loader').classList.remove('is-hidden');
- };
-  export function hideLoader(){
+};
+export function hideLoader(){
     document.querySelector('.loader').classList.add('is-hidden');
- };
+};
+export function showLoadMoreButton(){
+    document.querySelector('.load-more').classList.remove('is-hidden');
+};
+export function hideLoadMoreButton(){
+    document.querySelector('.load-more').classList.add('is-hidden');
+};
